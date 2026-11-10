@@ -28,14 +28,20 @@ Para ingresar al sistema se requiere autenticacion:
 - **Usuario:** admin
 - **Contrasena:** 123
 
+![Login de la aplicacion](img/login.png)
+
 ### 2. Panel de Registro de Gastos
 Permite registrar un gasto ingresando:
 - **Fecha**
 - **Descripcion**
 - **Monto** (Valido mediante pruebas unitarias mayor a cero).
 
+![Panel de control](img/panel.png)
+
 ### 3. Reporte en formato JSON
 Expone un endpoint en `/reporte/json` que compila dinamicamente el monto acumulado.
+
+![Reporte JSON](img/reporte.png)
 
 ---
 
@@ -46,3 +52,5 @@ Para ejecutar la suite de pruebas unitarias y de rutas implementadas:
 ```bash
 py -m pytest -v
 ```
+
+![Resultados de Pytest](img/pruebas.png)
