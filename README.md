@@ -1,6 +1,6 @@
 # Sistema de Gestion de Gastos Personales
 
-### **Estudiante:** SIFUENTES ASENCIOS Elmer
+### **Estudiante:** SIFUENTES Elmer
 ### **Asignatura:** Programacion Web
 ### **Carrera:** Ingenieria de Sistemas
 
