@@ -6,7 +6,7 @@ Aplicacion web desarrollada con Python, Flask y SQLite para el control de finanz
 
 1. Clonar el proyecto:
    ```bash
-   git clone <TU_ENLACE_DE_GITHUB_AQUI>
+   git clone https://github.com
    cd gestor_gastos
    ```
 
@@ -28,7 +28,7 @@ Para ingresar al sistema se requiere autenticacion:
 - **Usuario:** admin
 - **Contrasena:** 123
 
-![Login de la aplicacion](img/login.png)
+![Login de la aplicacion](imagenes/login.png)
 
 ### 2. Panel de Registro de Gastos
 Permite registrar un gasto ingresando:
@@ -36,12 +36,12 @@ Permite registrar un gasto ingresando:
 - **Descripcion**
 - **Monto** (Valido mediante pruebas unitarias mayor a cero).
 
-![Panel de control](img/panel.png)
+![Panel de control](imagenes/panel.png)
 
 ### 3. Reporte en formato JSON
 Expone un endpoint en `/reporte/json` que compila dinamicamente el monto acumulado.
 
-![Reporte JSON](img/reporte.png)
+![Reporte JSON](imagenes/reporte.png)
 
 ---
 
@@ -53,4 +53,5 @@ Para ejecutar la suite de pruebas unitarias y de rutas implementadas:
 py -m pytest -v
 ```
 
-![Resultados de Pytest](img/pruebas.png)
+![Resultados de Pytest](imagenes/pruebas.png)
+
