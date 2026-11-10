@@ -4,36 +4,35 @@
 ### **Asignatura:** Programacion Web
 ### **Carrera:** Ingenieria de Sistemas
 
-Aplicación web para control de finanzas personales desarrollada en Python (Flask) y SQLite, con validaciones y pruebas unitarias mediante `pytest`.
+Aplicacion web para control de finanzas personales desarrollada en Python (Flask) y SQLite.
 
 ---
 
-## 🛠️ Requisitos e Instalación
+## 🛠️ Requisitos e Instalacion
 
-1. **Clonar repositorio e instalar dependencias:**
-   ```bash
-   git clone https://github.com
-   cd gestor_gastos
-   py -m venv venv
-   venv\Scripts\activate
-   py -m pip install -r requirements.txt
-   ```
-
----
-
-## 🚀 Módulos Principales
-
-* **Login:** Acceso con usuario `admin` y contraseña `123` *(ver `imagenes/login.png`)*.
-* **Registro de Gastos:** Almacenamiento en SQLite con validación de montos mayores a cero *(ver `imagenes/panel.png`)*.
-* **Reporte JSON:** Endpoint en `/reporte/json` para visualizar el total acumulado *(ver `imagenes/reporte.png`)*.
+Clona el repositorio e instala las dependencias mediante la terminal:
+```bash
+git clone https://github.com
+cd gestor_gastos
+py -m venv venv
+venv\Scripts\activate
+py -m pip install -r requirements.txt
+```
 
 ---
 
-## 🧪 Pruebas Automatizadas
+## 🚀 Funcionamiento de la Aplicacion
 
-Ejecutar la suite de pruebas unitarias y de integración:
+* **Login (Admin / 123):** ![Login de la aplicacion](imagenes/login.png)
+* **Panel de Registro:** ![Panel de control](imagenes/panel.png)
+* **Reporte JSON (`/reporte/json`):** ![Reporte JSON](imagenes/reporte.png)
+
+---
+
+## 🧪 Ejecucion de Pruebas (pytest)
+
+Ejecuta las pruebas unitarias y de rutas con:
 ```bash
 py -m pytest -v
 ```
-*(Evidencia visual en `imagenes/pruebas.png`)*
-
+![Resultados de Pytest](imagenes/pruebas.png)
